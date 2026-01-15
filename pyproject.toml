@@ -1,0 +1,21 @@
+[project]
+name = "comfyui-iterator"
+description = "ComfyUI nodes for iterating over files (images, text) in directories."
+version = "0.0.1"
+license = { file = "LICENSE" }
+dependencies = []
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License"
+]
+
+[project.urls]
+Repository = "https://github.com/AIMovieStudio/comfyui-iterator"
+
+[tool.comfy]
+PublisherId = "aimoviestudio" 
+DisplayName = "ComfyUI Iterator Nodes"
+Icon = "https://raw.githubusercontent.com/aimoviestudio/comfyui-promptbuilder/main/assets/comfyui-iterator-cover.png" 
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
