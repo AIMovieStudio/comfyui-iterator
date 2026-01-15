@@ -15,7 +15,7 @@ Repository = "https://github.com/AIMovieStudio/comfyui-iterator"
 [tool.comfy]
 PublisherId = "aimoviestudio" 
 DisplayName = "ComfyUI Iterator Nodes"
-Icon = "https://raw.githubusercontent.com/aimoviestudio/comfyui-promptbuilder/main/assets/comfyui-iterator-cover.png" 
+Icon = "https://raw.githubusercontent.com/aimoviestudio/comfyui-iterator/main/assets/comfyui-iterator-cover.png" 
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
