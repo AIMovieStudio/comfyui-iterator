@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-iterator"
 description = "ComfyUI nodes for iterating over files (images, text) in directories."
-version = "0.0.1"
+version = "0.0.2"
 license = { file = "LICENSE" }
 dependencies = []
 readme = "README.md"
